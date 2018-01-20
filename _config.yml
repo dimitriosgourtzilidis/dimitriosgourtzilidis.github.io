@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Dimitrios Gourtzilidis
-tagline:          'I study Finance and learn Data Science'
+title:            Dimitrios
+tagline:          'I study Finance <br>and learn Data Science'
 description:      'I study Finance and learn Data Science'
 url:              https://dimitriosgourtzilidis.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
