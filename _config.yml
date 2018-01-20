@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            Dimitrios
-tagline:          'I study Finance <br>and learn Data Science'
-description:      'I study Finance and learn Data Science'
+tagline:          'I study Finance and learn Data Science'
+description:      'I study Finance <br>and learn Data Science'
 url:              https://dimitriosgourtzilidis.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -27,7 +27,7 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            4.0.0
+
 sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
