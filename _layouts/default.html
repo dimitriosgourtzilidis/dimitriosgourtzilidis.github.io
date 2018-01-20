@@ -1,24 +1,15 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en-us">
 
+  {% include head.html %}
 
-<body class="animated fadeIn">
-<div class="container content">
-<header class="masthead" style="background-image: url(https://s3.amazonaws.com/brunomarinho/assets/profile-photo.jpg);">
+  <body>
 
-    <!-- Navigation Loop -->
-    {% include nav.html %}
+    {% include sidebar.html %}
 
-    <div class="dot"></div>
-    <h1 class="big-serif">Dimitrios<br>Gourtzilidis</h1>
-    <h2 class="small-sans">I study Finance and I learn Data Science.<br></h2>
+    <div class="content container">
+      {{ content }}
+    </div>
 
-</header>
-
-{{ content }}
-
-{% include footer.html %}
-
-</body>
-
-
+  </body>
 </html>
